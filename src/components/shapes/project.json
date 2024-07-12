@@ -1,0 +1,9 @@
+{
+  "name": "shapes",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src/components/shapes/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project shapes --web",
+  "targets": {}
+}

@@ -1,6 +1,6 @@
+import { AviosTable } from '@ba-estore/avios-table';
+import { Funding } from '@ba-estore/funding';
 import styled from 'styled-components';
-
-import NxWelcome from './nx-welcome';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +9,8 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="ba-estore" />
+      <Funding />
+      <AviosTable />
     </StyledApp>
   );
 }

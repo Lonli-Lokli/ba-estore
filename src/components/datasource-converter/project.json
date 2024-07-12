@@ -1,0 +1,9 @@
+{
+  "name": "datasource-converter",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src/components/datasource-converter/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project datasource-converter --web",
+  "targets": {}
+}

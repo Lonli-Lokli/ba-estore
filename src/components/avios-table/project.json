@@ -1,0 +1,9 @@
+{
+  "name": "avios-table",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src/components/avios-table/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project avios-table --web",
+  "targets": {}
+}
