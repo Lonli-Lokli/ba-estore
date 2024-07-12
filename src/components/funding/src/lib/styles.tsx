@@ -12,8 +12,15 @@ export const StyledArticle = styled.article`
 `;
 
 export const StyledImage = styled.img`
- width: 50px;
-    height: 50px;`
+  width: 50px;
+  height: 50px;
+`;
 
 export const StyledDescription = styled.span`
-color: rgba(221, 214, 214);`
+  color: rgba(221, 214, 214);
+`;
+
+export const StyledTimestamp = styled.span`
+  margin-left: auto;
+  color: rgba(221, 214, 214);
+`;

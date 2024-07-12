@@ -3,6 +3,7 @@ import {
   StyledDescription,
   StyledFunding,
   StyledImage,
+  StyledTimestamp,
 } from './styles';
 
 export function Funding() {
@@ -22,6 +23,7 @@ export function Funding() {
             width="174"
           />
         </a>
+        <StyledTimestamp>Build as of {__BUILD_DATE__}</StyledTimestamp>
       </StyledArticle>
     </StyledFunding>
   );
