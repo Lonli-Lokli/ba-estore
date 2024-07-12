@@ -24,9 +24,9 @@ export function AviosTable() {
   const columns = useMemo<MRT_ColumnDef<RetailerDm>[]>(
     () => [
       {
-        accessorKey: 'name', //simple recommended way to define a column
+        accessorKey: 'name', 
         header: 'Name',
-        enableHiding: false, //disable a feature for this column
+        enableHiding: false, 
         Cell: ({ cell, row }) => (
           <Box component="span">
             <Link
@@ -40,28 +40,26 @@ export function AviosTable() {
         ),
       },
       {
-        accessorKey: 'maxAviosPerPound', //simple recommended way to define a column
+        accessorKey: 'maxAviosPerPound',
         header: 'Max Avios',
         filterFn: 'between',
-        enableHiding: false, //disable a feature for this column
+        enableHiding: false, 
       },
       {
-        accessorKey: 'rate', //simple recommended way to define a column
+        accessorKey: 'rate', 
         header: 'Rate',
-        enableHiding: false, //disable a feature for this column
       },
       {
-        accessorKey: 'description', //simple recommended way to define a column
+        accessorKey: 'description', 
         header: 'Description',
         visibleInShowHideMenu: false,
-        enableHiding: false, //disable a feature for this column
+        enableHiding: false,
       },
       {
         header: 'Speedy Awarding',
         Cell: ({ cell }) => (cell.getValue() === 'true' ? 'Yes' : 'No'),
         accessorFn: (originalRow) => (originalRow.isSpeedyAwarding ? 'true' : 'false'),
         filterVariant: 'checkbox',
-        enableHiding: false, //disable a feature for this column
       },
     ],
     []
