@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledAviosTable = styled.div`
-  height: 100vh;
+  padding: 20px;
+
+  .MuiTableContainer-root {
+    max-height: clamp(350px, calc(100vh - 260px), 9999px) !important;
+  }
 `;
